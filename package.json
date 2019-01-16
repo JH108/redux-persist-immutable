@@ -8,17 +8,12 @@
     "prepublish": "npm run clean && npm run build",
     "test": "ava"
   },
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/rt2zz/redux-persist-immutable.git"
   },
-  "keywords": [
-    "redux",
-    "redux-persist",
-    "immutable",
-    "immutablejs"
-  ],
+  "keywords": ["redux", "redux-persist", "immutable", "immutablejs"],
   "author": "Stephane Rufer <stephane.rufer@gmail.com>",
   "license": "MIT",
   "devDependencies": {
