@@ -14,15 +14,19 @@
     "type": "git",
     "url": "https://github.com/rt2zz/redux-persist-immutable.git"
   },
-  "keywords": ["redux", "redux-persist", "immutable", "immutablejs"],
+  "keywords": [
+    "redux",
+    "redux-persist",
+    "immutable",
+    "immutablejs"
+  ],
   "author": "Stephane Rufer <stephane.rufer@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
     "ava": "^0.16.0",
-    "babel-cli": "^6.9.0",
-    "babel-eslint": "^6.0.4",
-    "babel-plugin-transform-object-rest-spread": "^6.8.0",
-    "babel-preset-env": "^1.6.1",
     "immutable": "^3.8.1",
     "redux": "^3.5.2",
     "rimraf": "^2.5.2"
