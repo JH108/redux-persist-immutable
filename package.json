@@ -1,41 +1,41 @@
 {
-  "name": "redux-persist-immutable",
-  "version": "4.3.1",
-  "description": "top level immutablejs support for redux-persist",
-  "scripts": {
-    "build": "babel src --out-dir lib",
-    "clean": "rimraf lib dist",
-    "prepublish": "npm run clean && npm run build",
-    "test": "ava",
-    "postinstall": "npm run build"
-  },
-  "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rt2zz/redux-persist-immutable.git"
-  },
-  "keywords": [
-    "redux",
-    "redux-persist",
-    "immutable",
-    "immutablejs"
-  ],
-  "author": "Stephane Rufer <stephane.rufer@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "ava": "^0.16.0",
-    "immutable": "^3.8.1",
-    "redux": "^3.5.2",
-    "rimraf": "^2.5.2"
-  },
-  "dependencies": {
-    "redux-persist": "^4.0.0",
-    "redux-persist-transform-immutable": "^5.0.0"
-  },
-  "peerDependencies": {
-    "immutable": "*"
-  }
+	"name": "JH108/redux-persist-immutable",
+	"version": "4.3.1",
+	"description": "redux-persist-immutable with updated dependencies to remove transit.js top level immutablejs support for redux-persist",
+	"scripts": {
+		"build": "babel src --out-dir lib",
+		"clean": "rimraf lib dist",
+		"prepublish": "npm run clean && npm run build",
+		"test": "ava",
+		"postinstall": "npm run build"
+	},
+	"main": "lib/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rt2zz/redux-persist-immutable.git"
+	},
+	"keywords": [
+		"redux",
+		"redux-persist",
+		"immutable",
+		"immutablejs"
+	],
+	"author": "Stephane Rufer <stephane.rufer@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/cli": "^7.2.3",
+		"@babel/core": "^7.2.2",
+		"@babel/preset-env": "^7.2.3",
+		"ava": "^0.16.0",
+		"immutable": "^3.8.1",
+		"redux": "^3.5.2",
+		"rimraf": "^2.5.2"
+	},
+	"dependencies": {
+		"redux-persist": "^4.0.0",
+		"redux-persist-transform-immutable": "^5.0.0"
+	},
+	"peerDependencies": {
+		"immutable": "*"
+	}
 }
