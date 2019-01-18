@@ -1,4 +1,6 @@
-# Fork of redux-persist-immutable with updated dependencies to remove transit.js
+# JH108/redux-persist-immutable
+
+Fork of redux-persist-immutable with updated dependencies to remove transit.js
 
 # Redux Persist Immutable
 
