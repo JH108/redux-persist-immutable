@@ -1,5 +1,5 @@
 {
-	"name": "jh108/redux-persist-immutable",
+	"name": "jh108-redux-persist-immutable",
 	"version": "4.3.1",
 	"description": "redux-persist-immutable with updated dependencies to remove transit.js top level immutablejs support for redux-persist",
 	"scripts": {
